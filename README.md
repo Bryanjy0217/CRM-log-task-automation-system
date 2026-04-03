@@ -2,8 +2,6 @@
 
 This is a Python automation program that helps log CRM tasks automatically using phone numbers and remarks from Excel.
 
----
-
 ## Features
 
 - Reads phone numbers and remarks from Excel  
