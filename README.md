@@ -3,7 +3,6 @@
 This is a Python automation program that helps log CRM tasks automatically using phone numbers and remarks from Excel.
 
 ## Features
-
 - Reads phone numbers and remarks from Excel  
 - Automatically searches student in CRM  
 - Handles both Lead and Opportunity records  
@@ -18,19 +17,13 @@ This is a Python automation program that helps log CRM tasks automatically using
 - Automatically clicks Save  
 - Processes multiple records continuously  
 
----
-
 ## Technologies
-
 - Python  
 - Selenium  
 - Pandas  
 - Chrome WebDriver  
 
----
-
 ## Purpose
-
 This project was created as a real-world automation tool to reduce repetitive manual CRM work.  
 
 Instead of manually searching, clicking, and filling forms for every student, this system performs everything automatically.
@@ -41,10 +34,7 @@ It also helped me improve my understanding of:
 - Handling dynamic web elements (Vue / Element UI)  
 - Writing more stable and reliable scripts  
 
----
-
 ## Challenges Faced
-
 While developing this system, I encountered several real-world issues:
 
 - Elements not detected even though visible on screen  
@@ -55,10 +45,7 @@ While developing this system, I encountered several real-world issues:
 - "invalid element state" and stale element errors  
 - Multiple "Status" fields leading to incorrect selection  
 
----
-
 ## Solutions
-
 To overcome these challenges, I improved the script by:
 
 - Using more precise XPath targeting  
@@ -69,24 +56,12 @@ To overcome these challenges, I improved the script by:
 - Using JavaScript click for elements that cannot be clicked normally  
 - Adding fallback and retry logic for better stability  
 
----
-
 ## Result
-
 The system is now stable and able to:
 
 - Run continuously without crashing  
 - Handle different edge cases  
 - Reduce manual workload significantly  
 
----
-
 ## Author
-
 Bryan Lim  
-
----
-
-## Code
-
-See full implementation here:  
